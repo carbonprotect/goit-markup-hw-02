@@ -3,6 +3,8 @@
 font-family: raleway, sans-serif;
 Size: 40px;
 width: 700;text-decoration: none;}
+.navi{weight:500; 
+line-height: 1.17;}
 .button {
     background-color: rgba(245, 244, 250, 1);
     font-family:Roboto;
@@ -11,6 +13,10 @@ font-size: 16px; }
 .button:hover 
 {background-color: rgba(33, 150, 243, 1);
  color:white;}
+ 
+
+ .button:focus{background-color: rgba(33, 150, 243, 1); color: white;}
+
 
  .button-1{
     background-color: rgba(245, 244, 250, 1);
@@ -21,10 +27,16 @@ weight:700;
  .button-1:hover {
     background-color: rgba(33, 150, 243, 1);
     color:white;}
+    .button-1:focus{background-color: rgba(33, 150, 243, 1); color: white;}}
 
 .adresss-naglowek:hover {color:rgba(33, 150, 243, 1)}
 .blue {color:rgba(33, 150, 243, 1)}
 
+.lorem{weight: 400px;
+    size: 14px
+    line-height:1.71 ;}
+.link{ size:14;
+    line-height: 1.71 ;}
 
 body {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;}
