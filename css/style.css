@@ -18,7 +18,7 @@ footer{background-color: rgba(47, 48, 58, 1);font-family: Roboto; font-weight: 4
     .color-logo-down{color:rgba(255, 255, 255, 1);font-weight: 700;
         font-size: 26px; }
 
-  
+ 
 
 .navi{ font-weight:500; font-size: 14px;
 line-height: 1.17;}
@@ -54,10 +54,18 @@ cursor:pointer;
 
 .lorem{
     font-size: 14px;
-    line-height: 1.71 ;}
+    line-height: 1.71 ;color:  rgba(117, 117, 117, 1); 
+    ;}
+    h2{ color: rgba(33, 33, 33, 1); font-weight: 700; height: 36px;
+        }
+     h3 {color: rgba(33, 33, 33, 1);
+        ;}
 .link{ 
     font-size: 14;
     line-height: 1.71;
 color: rgba(255, 255, 255, 1);
-text-decoration: none;
+text-decoration: none;}
 
+.our-team{background-color:  rgba(245, 244, 250, 1);
+    ;}
+    
