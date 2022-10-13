@@ -22,21 +22,26 @@ footer{background-color: var(--footer-background)
     font-size: 44px;
     line-height: 1.36;
     background: var(--footer-background);
-color: rgba(255, 255, 255, 1);
+color: rgba(255, 255, 255, 1);}
+
+
 
     
     
     
-}
+
 .colorlogo {
     color: var(--brand-color)
       font-weight: 700;
         font-size: 26px;
-        font-family: Raleway;}
+        font-family: Raleway;
+        text-decoration: none;}
 
-        .color-logo{color: rgba(0, 0, 0, 1);font-weight: 700;
+        .color-logo{color: rgba(0, 0, 0, 1);
+            font-weight: 700;
         font-size: 26px; 
-    ;}
+        text-decoration: none ;
+    }
     .color-logo-down{color:var(--white-colors)  ;font-weight: 700;
         font-size: 26px; }
 
@@ -47,7 +52,7 @@ color: rgba(255, 255, 255, 1);
     cursor:pointer;
 font-size: 16px; }
 .button:hover 
-{background-color: var(--brand-color);
+{background-color:var(--brand-color);
  color:white;}
  
 
@@ -55,14 +60,25 @@ font-size: 16px; }
 
 
  .button-1{
-    background-color: rgba(245, 244, 250, 1);
+    color: rgba(33, 33, 33, 1);
+    
+    
 font-family :Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
 cursor:pointer;
  }
  .button-1:hover {
-    background-color: var(--brand-color);
-    color:var(--White-colors);}
-    .button-1:focus{background-color:var(--brand-color)}
+    color: var(--white-colors);
+    background-color:var(--brand-color);
+    
+}
+    .button-1:focus{background-color:var(--brand-color);
+        color:rgba(245, 244, 250, 1);
+        
+    }
+
 .mail-adress{font-weight:500 ; 
     font-size: 14px;
     line-height: 1.17 ;
@@ -98,9 +114,12 @@ text-decoration: none;
 color: rgba(255, 255, 255, 1);
 
 text-decoration: none;}
-.link:hover{color:var(--brand-color)}
+.link:hover{color:var(--brand-color);
+    text-decoration: none;
+}
 
 .link p{color:rgba(245, 244, 250, 1); }
+
 .our-team{background-color:  rgba(245, 244, 250, 1);
-    ;}
+    }
       
