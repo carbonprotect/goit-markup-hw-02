@@ -97,6 +97,7 @@ line-height: 2;
     font-size: 14px;
     line-height: 1.17 ;
 text-decoration: none;
+color: var(--lorem-descryption);
 }
 .mail-adress:hover {color:var(--brand-color);
 }
